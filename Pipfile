@@ -12,6 +12,7 @@ black = "*"
 opencv-python = "*"
 imutils = "*"
 numpy = "*"
+mss = "*"
 
 [requires]
 python_version = "3.7"
