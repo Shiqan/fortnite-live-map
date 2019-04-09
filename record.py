@@ -1,5 +1,6 @@
 from multiprocessing import Process, Queue
 import time
+import uuid
 import mss
 from mss.tools import to_png
 
@@ -27,17 +28,14 @@ def grab(queue):
 
 
 def save(queue):
-    number = 0
-    output = "./screenshots/file_{}.png"
+    output = "./screenshots/{}.png"
 
     while "there are screenshots":
-        print(f"[info] {number}")
         img = queue.get()
         if img is None:
             break
 
-        to_png(img.rgb, img.size, output=output.format(number))
-        number += 1
+        to_png(img.rgb, img.size, output=output.format(uuid.uuid4()))
 
 
 if __name__ == "__main__":
