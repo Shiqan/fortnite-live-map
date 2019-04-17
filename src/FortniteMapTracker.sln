@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FortniteMapTracker", "FortniteMapTracker\FortniteMapTracker.csproj", "{9DF90035-E921-4CC7-ACA0-EBC67DAA4987}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FortniteMapTracker.Core", "FortniteMapTracker.Core\FortniteMapTracker.Core.csproj", "{E9202F06-AD51-48BD-AE3A-2AE227CC177E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FortniteMapTracker.Console", "FortniteMapTracker.Console\FortniteMapTracker.Console.csproj", "{41553671-D53F-46B0-8088-2E14E48C293D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FortniteMapTracker.ScreenCapture.Windows", "FortniteMapTracker.ScreenCapture.Windows\FortniteMapTracker.ScreenCapture.Windows.csproj", "{F0506602-1F12-4DD9-8B96-5323B7A8FF14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FortniteReplayObserver.Mqtt.MapTracker", "FortniteReplayObserver.Mqtt.Tracker\FortniteReplayObserver.Mqtt.MapTracker.csproj", "{BFA80D96-7BA5-480F-BA50-51E2F7310618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortniteReplayObserver.FileMapTracker", "FortniteReplayObserver.FileMapTracker\FortniteReplayObserver.FileMapTracker.csproj", "{F9E38345-FCA2-4072-901E-97D9CBD4B953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF90035-E921-4CC7-ACA0-EBC67DAA4987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF90035-E921-4CC7-ACA0-EBC67DAA4987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF90035-E921-4CC7-ACA0-EBC67DAA4987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF90035-E921-4CC7-ACA0-EBC67DAA4987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9202F06-AD51-48BD-AE3A-2AE227CC177E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9202F06-AD51-48BD-AE3A-2AE227CC177E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9202F06-AD51-48BD-AE3A-2AE227CC177E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9202F06-AD51-48BD-AE3A-2AE227CC177E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41553671-D53F-46B0-8088-2E14E48C293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41553671-D53F-46B0-8088-2E14E48C293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41553671-D53F-46B0-8088-2E14E48C293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41553671-D53F-46B0-8088-2E14E48C293D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0506602-1F12-4DD9-8B96-5323B7A8FF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0506602-1F12-4DD9-8B96-5323B7A8FF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0506602-1F12-4DD9-8B96-5323B7A8FF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0506602-1F12-4DD9-8B96-5323B7A8FF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA80D96-7BA5-480F-BA50-51E2F7310618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA80D96-7BA5-480F-BA50-51E2F7310618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA80D96-7BA5-480F-BA50-51E2F7310618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA80D96-7BA5-480F-BA50-51E2F7310618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E38345-FCA2-4072-901E-97D9CBD4B953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E38345-FCA2-4072-901E-97D9CBD4B953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E38345-FCA2-4072-901E-97D9CBD4B953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E38345-FCA2-4072-901E-97D9CBD4B953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F24D128F-A780-486A-B052-EFDDDD4640A6}
+	EndGlobalSection
+EndGlobal

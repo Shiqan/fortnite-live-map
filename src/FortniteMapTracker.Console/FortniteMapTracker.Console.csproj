@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FortniteMapTracker.Core\FortniteMapTracker.Core.csproj" />
+    <ProjectReference Include="..\FortniteMapTracker.ScreenCapture.Windows\FortniteMapTracker.ScreenCapture.Windows.csproj" />
+    <ProjectReference Include="..\FortniteMapTracker\FortniteMapTracker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="images\minimap.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="images\minimap_org.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="images\world.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="IF not exist $(ProjectDir)$(OutDir)screenshots (mkdir $(ProjectDir)$(OutDir)screenshots&#xD;&#xA;xcopy /y $(ProjectDir)..\..\screenshots  $(ProjectDir)$(OutDir)screenshots)" />
+  </Target>
+
+</Project>
