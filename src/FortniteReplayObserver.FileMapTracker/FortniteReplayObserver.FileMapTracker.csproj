@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FortniteMapTracker.ScreenCapture.Windows\FortniteMapTracker.ScreenCapture.Windows.csproj" />
+    <ProjectReference Include="..\FortniteMapTracker\FortniteMapTracker.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FortniteReplayObserver.File">
+      <HintPath>..\..\..\FortniteReplayReader\src\FortniteReplayObserver.File\bin\Debug\netcoreapp3.0\FortniteReplayObserver.File.dll</HintPath>
+    </Reference>
+    <Reference Include="FortniteReplayReader.Core">
+      <HintPath>..\..\..\FortniteReplayReader\src\FortniteReplayObserver.File\bin\Debug\netcoreapp3.0\FortniteReplayReader.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FortniteReplayReader.Observable">
+      <HintPath>..\..\..\FortniteReplayReader\src\FortniteReplayObserver.File\bin\Debug\netcoreapp3.0\FortniteReplayReader.Observable.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
